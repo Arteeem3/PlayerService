@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f6671d-3cef-4baa-a127-1c6bac1342a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/course/player/model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/course/player/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/course/player/ConsoleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/course/player/service/PlayerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsoleApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -76,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707499976314</updated>
       <workItem from="1707499977339" duration="129000" />
-      <workItem from="1707500966298" duration="1442000" />
+      <workItem from="1707500966298" duration="2619000" />
+      <workItem from="1707581684062" duration="6029000" />
     </task>
     <servers />
   </component>
