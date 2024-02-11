@@ -10,6 +10,7 @@ public class Player {
     private int points;
     private boolean isOnline;
 
+    public Player() {};
     public Player(int id, String nick, int points, boolean isOnline) {
         this.id = id;
         this.nick = nick;

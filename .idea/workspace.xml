@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f6671d-3cef-4baa-a127-1c6bac1342a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/course/player/ConsoleApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/course/player/service/PlayerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/course/player/data/DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/course/player/data/DataProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/course/player/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/course/player/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/course/player/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/course/player/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/course/player/service/PlayerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/course/player/service/PlayerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +48,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.ConsoleApp.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -51,8 +66,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,7 +93,8 @@
       <updated>1707499976314</updated>
       <workItem from="1707499977339" duration="129000" />
       <workItem from="1707500966298" duration="2619000" />
-      <workItem from="1707581684062" duration="6029000" />
+      <workItem from="1707581684062" duration="6159000" />
+      <workItem from="1707645858411" duration="4916000" />
     </task>
     <servers />
   </component>

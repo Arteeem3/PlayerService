@@ -14,9 +14,14 @@ public class ConsoleApp {
         PlayerService service = new PlayerServiceImpl();
 
         printHelp();
-        // TODO: continue on Exceptions
+        // TODO: continue on Exception
         while(true) {
             String command = scanner.nextLine();
+            if (! isKnownCommand(command)) {
+                System.out.println("Unknown command");
+                printHelp();
+            }
+
             // list
             if (command.equalsIgnoreCase("list")) {
                 Collection<Player> players = service.getPlayers();
@@ -71,6 +76,18 @@ public class ConsoleApp {
                 printHelp();
             }
         }
+    }
+
+    private static boolean isKnownCommand(String command) {
+
+        String lowercase = command.toLowerCase();
+        return  ( command.equalsIgnoreCase("help")
+                || command.equalsIgnoreCase("list")
+                || command.equalsIgnoreCase("quit")
+                || lowercase.startsWith("add ")
+                || lowercase.startsWith("get ")
+                || lowercase.startsWith("delete ")
+                || lowercase.startsWith("points "));
     }
 
     private static void printHelp() {
